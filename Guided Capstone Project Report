@@ -1,10 +1,21 @@
-Write a 1-2 page report summarizing your recommendations for Big Mountain Resort. Be sure to include the figures you created to back up your recommendations 
+Write a 1-2 page report summarizing your recommendations for Big Mountain Resort. Be sure to 
+include the figures you created to back up your recommendations 
 
-The first part of this project was Data Wrangling. In this section, the explore the data and identify indexing for the data set (State Region Resort). We also added state data including the population and the state are square miles. We dropped data that was incomplete, and decided the target feature to be Adult Weekend ticket price. 
+The first part of this project was Data Wrangling. In this section, the explore the data and 
+identify indexing for the data set (State Region Resort). We also added state data including 
+the population and the state are square miles. We dropped data that was incomplete, and decided 
+the target feature to be Adult Weekend ticket price. 
 
-The next portion of the project was exploratory data analysis. Here, we scaled the data and tried to use graphs to find correlations between price and other features. The features with the highest correlation were runs, fast quads, vertical drops, and total chairs. 
+The next portion of the project was exploratory data analysis. Here, we scaled the data and 
+tried to use graphs to find correlations between price and other features. The features with 
+the highest correlation were runs, fast quads, vertical drops, and total chairs. 
 
-In the next portion of the project, we selected a model based off lowest MAE. The random forest model had the best results, and the predictions made with this model were closest to accurate. 
+In the next portion of the project, we selected a model based off lowest MAE. The random forest 
+model had the best results, and the predictions made with this model were closest to accurate. 
 
-The next step is to make predictions by changing features. This is where our recommendations come in. 
-For Big Mountain Resort, the original Adult Ticket Weekend price is 81$. Based on the analysis done, data shows that reducing the number of runs by one, there is no effect to the ticket price. Modeling further showed that adding a vertical drop of 150 feet and an additional ski lift, ticket prices can be increased by 1.99. Initially, Big Mountain should increase ticket prices to their predicted value of 95.87$. Then when a run is closed, they can sense how the revenue is. If there are no changes, they can add a vertical drop and ski lift, and then increase the ticket prices further by 1.99. 
+The next step is to make predictions by changing features. This is where our recommendations come 
+in. For Big Mountain Resort, the original Adult Ticket Weekend price is 81$. Based on the analysis 
+done, data shows that reducing the number of runs by one, there is no effect to the ticket price. After 
+the initial step to increase the ticket price and cut down the least used run, the resort can start 
+exploring long term options. Modeling further showed that adding a vertical drop of 150 feet, another run, 
+and an additional ski lift, ticket prices can be increased by 1.99 to $97.85.
